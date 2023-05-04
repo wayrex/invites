@@ -2,12 +2,12 @@
     "trailingSlash": "auto",
     "routes": [
         {
-            "route": "/*",
-            "redirect": "/noscasamos"
-        },
-        {
             "route": "/noscasamos",
             "rewrite": "/index.html"
+        },
+        {
+            "route": "/",
+            "redirect": "/noscasamos"
         }
     ]
 }
