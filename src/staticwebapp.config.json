@@ -4,6 +4,10 @@
         {
             "route": "/*",
             "redirect": "/noscasamos"
+        },
+        {
+            "route": "/noscasamos",
+            "rewrite": "/index.html"
         }
     ]
 }
