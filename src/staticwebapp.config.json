@@ -2,8 +2,8 @@
     "trailingSlash": "auto",
     "routes": [
         {
-            "route": "/calendar*",
-            "rewrite": "/index.html"
+            "route": "/*",
+            "redirect": "/noscasamos"
         }
     ]
 }
